@@ -3,4 +3,3 @@
   tasks:  # tasks/module/collection we are providing thelist of tasks to do in the ansible node
   - name: ping the server 
     ansible.builtin.ping:
-    

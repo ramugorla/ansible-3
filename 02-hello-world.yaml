@@ -1,0 +1,6 @@
+- name: print hello world
+  hosts: web 
+  tasks:
+  - name: print statement
+    ansible.builtin.debug:
+      msg: "Hello world"  # here we are passing the module arguments
